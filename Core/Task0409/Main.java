@@ -29,15 +29,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int minNumber = Integer.MAX_VALUE;
-        int number;
+        int maxNumber = Integer.MIN_VALUE;
+        int number = 0;
         while (sc.hasNextInt()) {
             number = Integer.parseInt(sc.next());
-            if (number < minNumber) {
-                minNumber = number;
+            if (number > maxNumber) {
+                maxNumber = number;
             }
             System.out.println(number);
         }
-        System.out.println("Minimum number is " + minNumber);
+        System.out.println("Minimum number is " + maxNumber);
     }
+
 }
