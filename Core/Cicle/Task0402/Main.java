@@ -1,4 +1,4 @@
-package Task0402;
+package Cicle.Task0402;
 
 
 /*

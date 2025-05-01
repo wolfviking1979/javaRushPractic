@@ -1,4 +1,4 @@
-package Task0412;
+package Cicle.Task0412;
 
 import java.util.Scanner;
 
